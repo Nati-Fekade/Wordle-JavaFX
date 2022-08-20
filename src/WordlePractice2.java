@@ -13,7 +13,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.BorderPane;
@@ -23,18 +22,18 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
-import javafx.scene.web.WebHistory;
 
 /**
  * Set on KEY implementation
  * 
- * @author NATI
+ * This is a trial implementation of the Wordle game. This is not fully working game
+ * 
+ * @author Nathnael Fekade
  *
  */
 public class WordlePractice2 extends Application {
-    
+    // Random word from our 'word' dictionary
     static String word = Words.list.get(new Random().nextInt(Words.list.size()));
     GridPane gpane = new GridPane();
     Label[][] labels;

@@ -27,7 +27,10 @@ import javafx.scene.text.Text;
 
 /**
  * Text field implementation
- * @author NATI
+ * 
+ * Trying different ways of implementing the game. This class uses text field to take in our guess.
+ * 
+ * @author Nathnael Fekade
  *
  */
 public class WordlePractice3 extends Application {
