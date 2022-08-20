@@ -1,0 +1,10 @@
+Dordle Extra Credit work
+- Created an icon for Jordle
+- Dark mode: a radio button that converts the background color
+- If you guessed the right word or finished all your six tries, you will get a new window with graphics
+- I joined the two word lists and it checks for double/duplicate characters.
+- I implemented DORDLE and it WORKS!
+o If we click on the check box on the main Jordle window, you will be directed to a new pane.
+o Then you will have a text field (to change the implementation) that allows you to write on it.
+o You will enter one five letter word and it will appear on both grids.
+o It follows the same concept as Jordle
